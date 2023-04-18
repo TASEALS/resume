@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:22.10
 
 LABEL maintainer="Thomas Seals" 
 # grabs latest apt cache, install iperf3, and remove the clutter
