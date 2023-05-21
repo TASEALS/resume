@@ -1,4 +1,5 @@
-FROM ubuntu:22.10
+FROM ubuntu:kinetic
+
 
 LABEL maintainer="Thomas Seals" 
 # grabs latest apt cache, install iperf3, and remove the clutter
